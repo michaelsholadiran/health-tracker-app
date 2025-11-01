@@ -26,6 +26,18 @@ A React web application for tracking medications and logging vital signs.
 
 That's it! 🎉
 
+## Sample Credentials for Testing
+
+You can use any username to login. No password is required.
+
+**Examples:**
+- `testuser`
+- `user1`
+- `john`
+- `demo`
+
+Each username will have its own separate data storage.
+
 ## What You Need
 
 - Node.js (version 14 or higher)

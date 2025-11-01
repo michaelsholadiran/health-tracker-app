@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
   useInactivity(() => {
     clearCurrentUser();
     navigate('/login');
-  }, 600000);
+  }, 300000);
 
   const handleLogout = () => {
     clearCurrentUser();
