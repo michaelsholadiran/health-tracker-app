@@ -2,118 +2,43 @@
 
 A React web application for tracking medications and logging vital signs.
 
-## Quick Start
+## How to Run
 
-### 1. Prerequisites
+1. **Clone the repository**
+   ```bash
+   git clone git@github.com:michaelsholadiran/health-tracker-app.git
+   cd health-tracker-app
+   ```
 
-Make sure you have **Node.js** installed (version 14 or higher).
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Check if you have it:
-```bash
-node --version
-```
+3. **Start the app**
+   ```bash
+   npm run dev
+   ```
 
-If you don't have Node.js, download it from: https://nodejs.org/
-
-### 2. Clone the Repository
-
-```bash
-git clone git@github.com:michaelsholadiran/health-tracker-app.git
-cd health-tracker-app
-```
-
-### 3. Install Dependencies
-
-```bash
-npm install
-```
-
-Wait for this to finish. It might take a minute or two.
-
-### 4. Run the Project
-
-```bash
-npm run dev
-```
-
-### 5. Open in Browser
-
-The terminal will show you a URL like:
-```
-➜  Local:   http://localhost:5173/
-```
-
-Open this URL in your browser (Chrome, Firefox, Safari, etc.)
-
-### 6. Test the App
-
-1. **Login:** Enter any username (e.g., "testuser") - no password needed
-2. **Add Medications:** Click "Medications" → "Add Medication"
-3. **Log Vital Signs:** Click "Vital Signs" → "Log Vital Signs"
-4. **View Dashboard:** Click "Dashboard" to see statistics
+4. **Open your browser**
+   - Go to the URL shown in the terminal (usually `http://localhost:5173`)
+   - Login with any username (no password needed)
 
 That's it! 🎉
 
-## Available Commands
+## What You Need
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-
-## Project Structure
-
-```
-src/
-├── components/    # Reusable components (Login, Sidebar, Modal, etc.)
-├── pages/        # Page components (Dashboard, Medications, Vitals)
-├── hooks/        # Custom React hooks
-├── utils/        # Helper functions (storage utilities)
-└── App.jsx       # Main app with routes
-```
-
-## Technology Stack
-
-- **React** 18.3.1
-- **React Router** - For navigation
-- **Tailwind CSS** - For styling
-- **Vite** - Build tool
-
-## Troubleshooting
-
-### Port Already in Use?
-
-If port 5173 is in use, Vite will automatically use the next available port. Check your terminal for the new URL.
-
-### Dependencies Won't Install?
-
-Try this:
-```bash
-rm -rf node_modules package-lock.json
-npm install
-```
-
-### Build Errors?
-
-Make sure all dependencies are installed:
-```bash
-npm install
-```
+- Node.js (version 14 or higher)
+- npm (comes with Node.js)
 
 ## Features
 
-- ✅ Add and remove medications
-- ✅ Log vital signs (blood pressure, heart rate, weight)
-- ✅ View statistics on dashboard
-- ✅ Data persists in browser (survives refresh)
-- ✅ User-specific data storage
-- ✅ Auto-logout after 10 minutes of inactivity
+- Add and remove medications
+- Log vital signs (blood pressure, heart rate, weight)
+- View statistics on dashboard
+- Data saves automatically in your browser
 
-## Notes
+## Commands
 
-- Data is stored in your browser's Local Storage
-- Each username has separate data
-- No password required for login (username only)
-
-## License
-
-This project is part of an assessment case study.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
