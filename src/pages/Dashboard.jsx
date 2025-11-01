@@ -21,7 +21,7 @@ const Dashboard = () => {
   useInactivity(() => {
     clearCurrentUser();
     navigate('/login');
-  }, 300000);
+  }, 600000);
 
   useEffect(() => {
     if (currentUser) {

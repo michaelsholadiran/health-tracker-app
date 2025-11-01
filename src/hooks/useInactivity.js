@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-export const useInactivity = (callback, delay = 300000) => {
+export const useInactivity = (callback, delay = 600000) => {
   useEffect(() => {
     let inactivityTimer;
 
